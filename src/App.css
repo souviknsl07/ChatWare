@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  
+
+}
+
+.content {
+  text-align: center;
+  
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.messages {
+  overflow-y: scroll;
+  
+  height: 88vh;
+}
+
+
+.form__app {
+  padding: 10px;
+  position: fixed;
+  bottom:0;
+  background-color: #e9e9eb;
+  width:90%;
+  border-radius: 10px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+
+}
+
+.app__input {
+  flex:1;
+}
+
+.app__iconButton {
+  flex:0;
+}
+
