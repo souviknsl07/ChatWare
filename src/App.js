@@ -56,18 +56,15 @@ const App=()=> {
       <h1 style={{fontFamily:'Lobster,cursive'}}>ChatWare</h1>
       <p>Powered by ©Souvik Nath</p>
       <h3 style={{fontFamily:'Balsamiq Sans'}}>Welcome {username}</h3>
+
     </div>
-      
-     
       <FlipMove>
 	  	{
       	messages.map(({message,id}) => 
       		
       		(
- 				
  				<Message key={id}  username={username} message={message}/>
- 				
-      		)
+ 			)
       	)
       }
 	  </FlipMove>

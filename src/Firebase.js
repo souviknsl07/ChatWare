@@ -1,16 +1,14 @@
 import firebase from 'firebase';
 
-const firebaseApp= firebase.initializeApp({
-  apiKey: "AIzaSyDTKcEvF_zjuCODj8FtZmO_B73VtASQDYA",
-  authDomain: "messenger-ef115.firebaseapp.com",
-  databaseURL: "https://messenger-ef115.firebaseio.com",
-  projectId: "messenger-ef115",
-  storageBucket: "messenger-ef115.appspot.com",
-  messagingSenderId: "931663684647",
-  appId: "1:931663684647:web:bdd9b9ed0a44e6a1c71a02",
-  measurementId: "G-9KJ5WZ5VTT"
-});
-
+const firebaseConfig = {
+  apiKey: "AIzaSyCd1rGQNED_rr15IepZ9VTDV1Uvpfbn1Zs",
+  authDomain: "chatware-a334c.firebaseapp.com",
+  projectId: "chatware-a334c",
+  storageBucket: "chatware-a334c.appspot.com",
+  messagingSenderId: "84139593768",
+  appId: "1:84139593768:web:561871bc147636d449e51d"
+};
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db= firebaseApp.firestore();
 
 export default db;
